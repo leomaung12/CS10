@@ -2,6 +2,6 @@
 public class Credit3 {
 
 	public static void main{String[]args
-			//Leo Tin Maun
+			//Leo Tin M
 	}
 }
