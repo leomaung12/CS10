@@ -1,5 +1,15 @@
 package Assignments;
+/*
 
+Program: ${Assignment5}.java          Date: ${4/13/2022}
+
+
+Author: Leo Thein Maung
+School: CHHS
+Course: Computer Science 10
+ 
+
+*/
 import java.util.Scanner;
 
 public class Assignment5 {
@@ -18,3 +28,9 @@ public class Assignment5 {
 
 }
 
+
+/* Screen Dump
+79 + 3 * (4 + 82 –68) – 7 +19 = 145
+(179 + 21 + 10) / 7 + 181 = 211
+10389 * 56 *11 +2246 = 6401870
+*/
