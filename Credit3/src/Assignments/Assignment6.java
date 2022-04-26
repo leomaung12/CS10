@@ -1,7 +1,7 @@
 package Assignments;
 /*
 
-Program: ${Assignment6}.java          Date: ${4/12/2022}
+Program: ${Assignment6}.java          Date: ${4/13/2022}
 
 
 Author: Leo Thein Maung
@@ -20,29 +20,29 @@ public class Assignment6 {
 		
 	
 @SuppressWarnings("resource")
-Scanner input = new Scanner(System.in);
+Scanner input = new Scanner(System.in); //Scanner class for keyboard input
 
-System.out.println("What is your first name?");
-String name = input.next();
+System.out.println("What is your first name?");//prompting user to input value
+String name = input.next(); // saving input into a variable
 
-System.out.println("What is your last name?");
-String lname = input.next();
-lname += input.nextLine();
+System.out.println("What is your last name?");//prompting user to input value
+String lname = input.next();// saving input into a variable
+lname += input.nextLine();//  used for spaces in input so does not display two questions at once, and more than one word per answer
 
-System.out.println("What grade are you in?");
-int grade = input.nextInt();
+System.out.println("What grade are you in? ");//prompting user to input value
+int grade = input.nextInt();// saving input into a variable, int because of integer answer
 
-System.out.println("What school do you attend?");
-String school = input.nextLine();
-school += input.nextLine();
+System.out.println("What school do you attend?");//prompting user to input value
+String school = input.nextLine();// saving input into a variable
+school += input.nextLine();//  used for spaces in input so does not display two questions at once, and more than one word per answer
 
-System.out.println("What is your favorite hobby?");
-String hobby = input.next();
-hobby += input.nextLine();
+System.out.println("What is your favorite hobby?");//prompting user to input value
+String hobby = input.next();// saving input into a variable
+hobby += input.nextLine();//  used for spaces in input so does not display two questions at once, and more than one word per answer
 
 
 	
-System.out.println("Hello, your name is " + name + " " + lname + ". ou are currently in grade " + grade + " at " + school + ". Your favorite hobby is " + hobby + ".");
+System.out.println("Hello, your name is " + name + " " + lname + ". You are currently in grade " + grade + " at " + school + ". Your favorite hobby is " + hobby + "."); //printing out all values
 
 
 

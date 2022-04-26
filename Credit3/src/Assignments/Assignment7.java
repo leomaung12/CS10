@@ -18,19 +18,22 @@ public class Assignment7 {
 	{
 
 		
-		Scanner userinput = new Scanner(System.in);
+		@SuppressWarnings("resource")
+		Scanner userinput = new Scanner(System.in); //Scanner class for keyboard input
 		
-		System.out.println("Enter the change in cents: ");
+		System.out.println("Enter the change in cents: ");//prompting user to input value
 	
 		int change = userinput.nextInt();
 		
-		int quarters = change / 25;
+		int quarters = change / 25; //dividing input by quarters (25)
 		
-		int dimes =  ((change % 25)/10);
+		int dimes =  ((change % 25)/10); // using modulo to find amount in dimes
 		
-		int nickels = ((change % 25)%10)/5;
+		int nickels = ((change % 25)%10)/5;// using modulo to find amount in nickels
 		
-		int pennys = ((change % 25)%10)%5/1 ;
+		int pennys = ((change % 25)%10)%5/1 ;// using modulo to find amount in pennys
+		
+		// printing out values
 		
 		System.out.println("The change you provided is : "  + change );
 		

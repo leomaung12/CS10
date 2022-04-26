@@ -18,20 +18,20 @@ public class Assignment8 {
 	public static void main(String[] args) {
 
 	@SuppressWarnings("resource")
-	Scanner userinput = new Scanner(System.in);
+	Scanner userinput = new Scanner(System.in);//Scanner class for keyboard input
 		
-		System.out.println("Enter a three digit number: ");
+		System.out.println("Enter a three digit number: ");//prompting user to input value
 	
 		int threeDigits = userinput.nextInt();
 		
-		int firstDigit = threeDigits / 100;
+		int firstDigit = threeDigits / 100; // dividing input by 100 to find first digit
 		
-		int secondDigit =  (threeDigits % 100)/10;
+		int secondDigit =  (threeDigits % 100)/10; //using modulo to find second digit
 		
-		int thirdDigit =  (threeDigits % 100)%10;
+		int thirdDigit =  (threeDigits % 100)%10; //using double modulo to find third digit
 
 		
-			
+			//printing values
 		System.out.println("The first digit is : "  + firstDigit);
 		
 		System.out.println("The second digit is : " + secondDigit);

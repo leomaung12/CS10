@@ -14,8 +14,9 @@ Course: Computer Science 10
 public class myInitials 
 {
 
-	public static void main(String[] args) {
-		String initials = ""
+	public static void main(String[] args) 
+	{
+		String initials = "" // variable named initials
 				+ "		 |				    ----------                 \r\n"
 				+ "		 |					|			||          | |\r\n"
 				+ "		 |					|			|  |       |  |\r\n"
@@ -27,7 +28,7 @@ public class myInitials
 				+ "		 					";
 
 		 
-		System.out.println(initials);
+		System.out.println(initials); // printing variable initials on screen
 	} 
 }
 /* Screen Dump

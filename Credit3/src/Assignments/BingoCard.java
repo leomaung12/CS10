@@ -13,8 +13,9 @@ Course: Computer Science 10
 public class BingoCard 
 {
 
-	public static void main(String[] args) {
-	String name = " B	I	N	G	O\r\n"
+	public static void main(String[] args) 
+	{
+	String name = " B	I	N	G	O\r\n" // variable named string, /r/n for next line
 			+ " 7	27	40	47	66\r "  
 			+ "14	25	32	55	78\r "  
 			+ "2	18	FREE	53	67\r "  
@@ -23,7 +24,7 @@ public class BingoCard
 
 			;
 		
-System.out.println(name);
+System.out.println(name); // printing variable that was named
 
 	}
 

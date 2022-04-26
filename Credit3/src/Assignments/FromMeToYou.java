@@ -16,12 +16,12 @@ public class FromMeToYou
 
 	public static void main(String args []) 
 	{
-		String name = "From: Mr. Wilson\r"
+		String name = "From: Mr. Wilson\r" // variable string which holds the letter
 				+ "		Address: Acer Computer, Lab 314\r"
 				+ "		Date: March 31st, 2022\r"
 				+ "		To: Leo Thein Maung\r"
 				+ "		Message: Help! I'm trapped inside a computer!\r";
-		System.out.println(name); 
+		System.out.println(name); //printing the variable 
 		}
 }
 /* Screen Dump

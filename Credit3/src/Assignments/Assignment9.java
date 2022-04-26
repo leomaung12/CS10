@@ -17,28 +17,28 @@ import java.util.Scanner;
 public class Assignment9 {
 
 	public static void main(String[] args) {
-		Scanner userinput = new Scanner(System.in);
-		System.out.println("Enter an integer: ");
-		int number = userinput.nextInt();
-		System.out.println("Enter a second integer: ");
-		int numbertwo = userinput.nextInt();
+		Scanner userinput = new Scanner(System.in);//Scanner class for keyboard input
+		System.out.println("Enter an integer: "); //prompting user to enter a number
+		int number = userinput.nextInt();//stores info
+		System.out.println("Enter a second integer: ");//prompting user to enter a second number
+		int numbertwo = userinput.nextInt(); //stores info
 		
 		
-		System.out.println(" ");
-		System.out.println(" ");
-		System.out.println(" ");
+		System.out.println(" "); //spacing
+		System.out.println(" ");//spacing
+		System.out.println(" ");//spacing
+		
+		
+		System.out.println(number + "/" + numbertwo + " = " + (number / numbertwo));//	division agent
+		System.out.println(number + "%" + numbertwo + "=" + (number % numbertwo));// remainder agent
+
+		System.out.println(" ");//spacing
+		System.out.println(" ");//spacing
+		System.out.println(" ");//spacing
 
 		
-		System.out.println(number + "/" + numbertwo + " = " + (number / numbertwo));
-		System.out.println(number + "%" + numbertwo + "=" + (number % numbertwo));
-
-		System.out.println(" ");
-		System.out.println(" ");
-		System.out.println(" ");
-
-		
-		System.out.println(numbertwo + "/" + number + " = " + (numbertwo / number));
-		System.out.println(numbertwo + "%" + number + "=" + (numbertwo % number));
+		System.out.println(numbertwo + "/" + number + " = " + (numbertwo / number));// division agent
+		System.out.println(numbertwo + "%" + number + "=" + (numbertwo % number));// remainder agent
 
 
 	}
