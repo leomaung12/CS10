@@ -1,0 +1,76 @@
+/*
+Program: ${Assignment11}.java          Date: ${4/14/2022}
+Author: Leo Thein Maung
+School: CHHS
+Course: Computer Science 10
+ 
+*/
+import java.util.Scanner;
+
+public class Assignment11 {
+
+	  public static void main(String args[])
+	  {
+		  Scanner userinput = new Scanner(System.in);
+		  
+		  System.out.println("Enter a three digit number: ");
+			
+			int threeDigits = userinput.nextInt();
+			
+			int one = threeDigits / 100;
+			
+			int two =  (threeDigits % 100)/10;
+			
+			int three =  (threeDigits % 100)%10;
+			
+			//scenario for 579 
+			int max =0;
+			int min=0;
+ 			   if (two > one && (three > two) && (one < three))
+			   {
+				 max = three;
+		         min = one;
+				  System.out.println("Maximum  =  " + max + " Minimum = " + min);
+
+	  }
+			   else 
+			   { 
+				   max = two;
+				   min= three;
+					  System.out.println("Maximum  =  " + max + " Minimum = " + min);
+
+			   }
+			   
+			   //scenario for 931
+			   
+			   if (one > two && (two > three) && (one > three))
+			   {
+				 max = one;
+		         min = three;
+				  System.out.println("Maximum  =  " + max + " Minimum = " + min);
+
+	  }
+			   else 
+			   { 
+				   max = two;
+				   min= three;
+					  System.out.println("Maximum  =  " + max + " Minimum = " + min);
+
+			   }
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+			   System.out.println( );
+			   System.out.println("The sum of the three digits is " + (one + two + three));
+
+	    
+	  }
+	}
+
+/* Screen Dump
+  */
