@@ -53,6 +53,10 @@ You got it wrong. Please Try again.
 123
 You got it wrong.
 
-
+What is  0 * 10
+1
+You got it wrong. Please Try again.
+0
+You got it right! Congratulations!!
 
   */
