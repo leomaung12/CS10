@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Assignment12 {
 
 	public static void main(String[] args) {
-		  Scanner userinput = new Scanner(System.in);
+		  Scanner userinput = new Scanner(System.in); 
 
 		  System.out.println("Enter your grade percentage : ");
 		  

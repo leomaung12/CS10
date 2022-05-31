@@ -47,8 +47,7 @@ public class Assignment17
 		catch (Exception error) // prints error if there is error
 		{ 
 			System.out.println("error");
-		}
-		
+		} 
 	}
 
 }

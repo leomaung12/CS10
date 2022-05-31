@@ -2,7 +2,7 @@ package Assignments;
 
 import java.util.Scanner;
 
-public class JavaProject {
+public class JavaProject { 
 
 	public static void main(String[] args) {
 		

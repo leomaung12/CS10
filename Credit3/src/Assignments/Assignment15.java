@@ -22,7 +22,7 @@ public class Assignment15 {
 					System.out.println("You got it right! Congratulations!!" ); // if they get the answer right
 				}
 				else // if they get it wrong
-				{
+				{ 
 					Scanner userinput1 = new Scanner(System.in);
 					System.out.println("You got it wrong. Please Try again." );
 					int input1 = userinput.nextInt();

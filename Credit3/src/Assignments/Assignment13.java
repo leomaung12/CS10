@@ -17,7 +17,7 @@ public class Assignment13 {
 			int pc = userinput.nextInt(); // stores user input
 
 		
-			if (pc >= 1000) // if else statements.
+			if (pc >= 1000) // if else statements. 
 			{ 
 			System.out.println ("Price per copy is: $0.25" );
 			System.out.println ( "Total cost is: $" + pc * 0.25);

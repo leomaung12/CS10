@@ -12,7 +12,7 @@ public class Assignment14 {
 	public static void main(String[] args) {
 		  Scanner userinput = new Scanner(System.in);
 			System.out.println("Please Enter your age" ); // asks user age
-			int age = userinput.nextInt(); //  stores user age
+			int age = userinput.nextInt(); //  stores user age 
 			
 			if ( age > 18)	
 			{
