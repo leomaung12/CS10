@@ -11,17 +11,17 @@ public class Assignment15 {
 
 	public static void main(String[] args) {
 		
-		int frn = (int) (Math.random()*5); //
-		int srn = 1 + (int) (Math.random()*10); 
+		int frn = (int) (Math.random()*5); // first number randomly generated
+		int srn = 1 + (int) (Math.random()*10); // second number randomly generated
 		
 		Scanner userinput = new Scanner(System.in);
-		System.out.println("What is  " + frn + " * " + srn);
+		System.out.println("What is  " + frn + " * " + srn); // asks questions
 		int input = userinput.nextInt();
 				if ( input == frn * srn)
 				{
-					System.out.println("You got it right! Congratulations!!" );
+					System.out.println("You got it right! Congratulations!!" ); // if they get the answer right
 				}
-				else 
+				else // if they get it wrong
 				{
 					Scanner userinput1 = new Scanner(System.in);
 					System.out.println("You got it wrong. Please Try again." );

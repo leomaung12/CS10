@@ -14,9 +14,9 @@ public class Assignment12 {
 
 		  System.out.println("Enter your grade percentage : ");
 		  
-			int gp = userinput.nextInt();
+			int gp = userinput.nextInt(); // input from user
 			
-			if (gp >= 90)
+			if (gp >= 90.0) // if user input is higher than number stated it will respond with the grade that it corresponds too
 			{ 
 			System.out.println("The corresponding letter grade is: A+");
 			}

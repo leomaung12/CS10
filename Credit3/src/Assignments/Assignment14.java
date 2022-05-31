@@ -11,10 +11,10 @@ public class Assignment14 {
 
 	public static void main(String[] args) {
 		  Scanner userinput = new Scanner(System.in);
-			System.out.println("Please Enter your age" );
-			int age = userinput.nextInt();
+			System.out.println("Please Enter your age" ); // asks user age
+			int age = userinput.nextInt(); //  stores user age
 			
-			if ( age > 18)
+			if ( age > 18)	
 			{
 				System.out.println("Adult" );
 
@@ -22,23 +22,23 @@ public class Assignment14 {
 			
 			else if ( age >= 12)
 			{
-				System.out.println("Teen" );
+				System.out.println("Teen" ); //  if age is less than 18 or equal to 12 than it is a teen.
 
 			}
 			
-			else if ( age >= 10)
+			else if ( age >= 10) // if age is less than 12 or equal to 10 than it is preteen. 
 			{
 				System.out.println("Preteen" );
 
 			}
 			
-			else if ( age >= 5)
+			else if ( age >= 5) // if age is less than 10 or equal to 5 than it is a child.
 			{
 				System.out.println("Child" );
 
 			}
 			
-			else if ( age >= 0)
+			else if ( age >= 0) // if age is less than 5 or equal to 0 than it is a toddler.
 			{
 				System.out.println("Toddler" );
 

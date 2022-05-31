@@ -13,11 +13,11 @@ public class Assignment13 {
 		
 		  Scanner userinput = new Scanner(System.in);
 		  
-			System.out.println("Enter the number of copies to be printed: " );
-			int pc = userinput.nextInt();
+			System.out.println("Enter the number of copies to be printed: " ); //asks user how many copies to be printed
+			int pc = userinput.nextInt(); // stores user input
 
 		
-			if (pc >= 1000)
+			if (pc >= 1000) // if else statements.
 			{ 
 			System.out.println ("Price per copy is: $0.25" );
 			System.out.println ( "Total cost is: $" + pc * 0.25);

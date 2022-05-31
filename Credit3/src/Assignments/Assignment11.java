@@ -12,17 +12,17 @@ public class Assignment11 {
 
 	  public static void main(String args[])
 	  {
-		  Scanner userinput = new Scanner(System.in);
+		  Scanner userinput = new Scanner(System.in); //input from user
 
 		  System.out.println("Enter a three digit number: ");
 
-			int threeDigits = userinput.nextInt();
+			int threeDigits = userinput.nextInt(); //  input stored
 
-			int one = threeDigits / 100;
+			int one = threeDigits / 100; // variable one
 
-			int two =  (threeDigits % 100)/10;
+			int two =  (threeDigits % 100)/10; // variable two
 
-			int three =  (threeDigits % 100)%10;
+			int three =  (threeDigits % 100)%10; // variable three
 
 			//scenario for 579 
 			int max = 0;
