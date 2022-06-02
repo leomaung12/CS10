@@ -51,7 +51,7 @@ public class JavaProject {
 				System.out.print("Thanks for using the program.");
 
 	            break;
-	            
+	             
 	         case 2: // US Dollars , second case indicates US dollar conversion to different currencies
 	        	 Rupee = amount * 77.819405;
 	             System.out.println(amount + " Dollar = " + Rupee + " Rupees");
