@@ -1,6 +1,11 @@
 package Assignments;
+/*Program: ${JavaProject}.java          Date: ${6/2/2022}
+Author: Leo Thein Maung
+School: CHHS
+Course: Computer Science 10
 
-import java.util.Scanner;
+*/
+import java.util.Scanner; 
 
 public class JavaProject { 
 
